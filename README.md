@@ -1,8 +1,3 @@
-Directory structure note
--------------------------------------
-
-All the data files are contained in the directory ds001634, which connects to the OpenNeuro repository with that ID.  Datalad `get` commands should be run in this directory.
-
 Subjects and MRI protocol
 -------------------------------------
 
