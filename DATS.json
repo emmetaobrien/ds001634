@@ -1,0 +1,190 @@
+{
+	"identifier": {
+		"identifier": "10.18112/openneuro.ds001634",
+		"identifierSource": "DOI"
+	},
+	"version": "1.0",
+	"privacy": "Open Access; Registered Access",
+	"licenses": [
+		{
+			"name": "Creative Commons Attribution 4.0 International (CC-BY 4.0)"
+		}
+	],
+	"creators": [
+		{
+            "fullName": "Eyal Soreq",
+            "firstName": "Eyal",
+            "lastName": "Soreq",
+	    "roles": [
+		{
+			"value": "Principal Investigator"
+		}
+	    ],
+            "affiliations": [
+                 {
+                    "name": "The Computational, Cognitive and Clinical Neuroimaging Laboratory, Division of Brain Sciences"
+                }
+            ]
+		}
+	],
+	"types": [
+		{
+            "method": {
+                "value": "MRI"
+            }
+        },
+        {
+            "method": {
+                "value": "Task fMRI"
+            }
+        },
+        {
+            "information": {
+                "value": "Behavioral Response"
+            }
+        }, 
+	{
+            "information": {
+                "value": "T1W"
+            }
+        },
+        {
+            "information": {
+                "value": "Visual Working Memory (WM)"
+            }
+        }
+	],
+	"title": "Visual working memory: Study of Task fMRI and Behavioural response",
+	"description": "Nineteen right-handed healthy adults (aged from 18-28 years old) participated in this study on the same 3 T MRI scanner. Axial 3D T1-weighted images were acquired as well as three runs of bold task MRI with the recording of their related behavioural data.",
+	"storedIn": {
+		"name" : "CONP"
+	},
+	"primaryPublications" : [
+		{
+			"identifier": {
+				"identifier": "https://www.nature.com/articles/s41467-019-08840-8"
+			},
+			"title": "Dynamic network coding of working-memory domains and working-memory processes",
+			"dates": [
+				{
+					"type": {
+						"value":"Primary reference publication date"
+					},
+					"date": "2019-02-25 00:00:00"
+				}
+			],
+			"publicationVenue": "Nature Communications, (2019)10:936",
+            "authors": [
+                {
+                    "fullName": "Eyal Soreq",
+                    "firstName": "Eyal",
+                    "lastName": "Soreq",
+                    "affiliations": [
+                         {
+                            "name": "The Computational, Cognitive and Clinical Neuroimaging Laboratory, Division of Brain Sciences"
+                        }
+                    ]
+                },
+                {
+                    "fullName": "Robert Leech",
+                    "firstName": "Robert",
+                    "lastName": "Leech",
+                    "affiliations": [
+                         {
+                            "name": "Centre for Neuroimaging Sciences, Institute of Psychiatry"
+                        }
+                    ]
+                },
+                {
+                    "fullName": "Adam Hampshire",
+                    "firstName": "Adam",
+                    "lastName": "Hampshire",
+                    "affiliations": [
+                         {
+                            "name": "The Computational, Cognitive and Clinical Neuroimaging Laboratory, Division of Brain Sciences"
+                        }
+                    ]
+                }
+            ]
+		}
+	],
+	"dates": [
+		{
+			"type": {
+				"value":"Release Date"
+			},
+			"date": "2019-02-25 00:00:00"
+		}
+	],
+	"distributions": [
+	        {
+			"formats": [
+				"NIfTI"
+            		],
+			"size" : 7,
+		        "unit" : {
+            			"value": "GB"
+		        },
+			"access": {
+				"landingPage": "https://openneuro.org/datasets/ds001635/",
+				"authorizations": [
+					{
+						"value": "public"
+					}
+				]
+			}
+		}
+	],
+	"keywords": [
+		{
+            "value": "Task fMRI"
+        },
+        {
+            "value": "Behavioral Response"
+        },
+        {
+            "value": "Visual Working Memory (WM)"
+        },
+        {
+            "value": "MRI"
+        },
+        {
+            "value": "Group Study"
+        }
+	],
+	"extraProperties": [
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "272"
+				}
+			]
+		},
+		{
+			"category": "CONP_status",
+			"values": [
+				{
+					"value": "external"
+				}
+			]
+		},
+		{
+			"category": "subjects",
+			"values": [
+				{
+					"value": "19"
+				}
+			]
+		},
+		{
+			"category": "logo",
+			"values": [
+				{
+					"value": "logo.png"
+				}
+			]
+		}
+	]
+}
+
